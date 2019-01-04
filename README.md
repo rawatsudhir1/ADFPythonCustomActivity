@@ -6,7 +6,7 @@ This repository consist of Hands on lab and Pythond code. The Hands on lab descr
 
     - HOL:- Linux- ADFPythonCustomActivityHandsonLab.docx
     
-    - CodeFile:- Linux - getTweets.py (remove Linux- when use file)
+    - CodeFile:- Linux - getTweets.py (remove "Linux -" when use the file for demo)
     
 
 **Windows as compute platform then use**
