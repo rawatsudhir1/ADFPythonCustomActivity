@@ -38,7 +38,7 @@ def insertintoCosmosDB(cdbhost, cdbmasterkey, tweetDate, tweetText):
     _collection_link = _database_link + '/colls/tweetcollec'
     with IDisposable(document_client.DocumentClient(cdbhost, {'masterKey': cdbmasterkey} )) as client:
         try:
-            client.CreateDocument(_collection_link, tweetmessage, options=False)
+            client.CreateDocument(_collection_link, tweetmessage)
         except errors.DocumentDBError as e:
             if e.status_code == 409:
                 pass
