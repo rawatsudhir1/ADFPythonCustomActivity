@@ -9,7 +9,7 @@ This repository consist of Hands on lab and Pythond code. The Hands on lab descr
     - CodeFile:- Linux - getTweets.py (remove "Linux -" when use the file for demo)
     
 
-**Windows as compute platform then use**
+**Windows as compute platform then use** (There is some issue with this. Do use above one till i fix it)
 
     - HOL:- ADFPythonCustomActivityHandsonLab.docx
     
